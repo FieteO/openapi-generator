@@ -4487,7 +4487,7 @@ public class DefaultCodegen implements CodegenConfig {
         // legacy support
         op.nickname = op.operationId;
 
-        op.hasParams = op.allParams.size() > 0
+        op.hasParams = op.allParams.size() > 0;
         op.hasRequiredParams = op.requiredParams.size() > 0;
 
         // set Restful Flag
